@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["DOM", "ESNext", "DOM.Iterable", "ScriptHost", "es2015.promise"],
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "./dist/"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
